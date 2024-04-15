@@ -1,0 +1,45 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.formatOnSave": false
+    },
+    "files.autoSave": "onFocusChange",
+    "redhat.telemetry.enabled": true,
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": true
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "yaml": true,
+        "shellscript": false
+    },
+    "git.confirmSync": false,
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "terminal.integrated.profiles.osx": {
+        "zsh": {
+            "path": "/bin/zsh",
+            "args": [
+                "-l",
+                "-i"
+            ]
+        }
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "aws.telemetry": false
+}

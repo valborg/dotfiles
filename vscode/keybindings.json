@@ -1,0 +1,34 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.files.action.refreshFilesExplorer"
+    },
+    {
+        "key": "ctrl+cmd+t",
+        "command": "workbench.action.terminal.newInActiveWorkspace",
+        "when": "focusTerminal"
+    },
+    {
+        "key": "ctrl+cmd+n",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "cmd+[IntlBackslash]",
+        "command": "editor.debug.action.showDebugHover",
+        "when": "editorTextFocus && inDebugMode"
+    },
+    {
+        "key": "ctrl+shift+[Backquote]",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
+    }
+]
