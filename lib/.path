@@ -1,0 +1,22 @@
+export PATH="$HOME/bin:$PATH"
+# always expect to be in a node project
+export PATH="./node_modules/.bin:$PATH"
+
+# add default python user script libraries
+export PATH="$HOME/.local/bin:$PATH"
+
+# add default homebrew path
+export PATH="/opt/homebrew/bin:$PATH"
+
+# add global npm packages to path
+#export PATH=/usr/local/lib/node_modules/bin:"$PATH"
+
+# git package stuff, perhaps legacy
+export PATH="./git-package/bin/:$PATH"
+
+# python env shims. Should perhaps have been install when pyenv was installed, but didn't
+export PATH="$(pyenv root)/shims:$PATH"
+
+# export JAVA_HOME=/opt/homebrew/Cellar/openjdk/17.0.1_1
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home"
+export PATH="$JAVA_HOME/bin:$PATH"

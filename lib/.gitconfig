@@ -1,0 +1,33 @@
+[alias]
+	c = commit -m
+	p = push
+	s = status -s
+	df = diff --color --color-words --abbrev
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	# View the SHA, description, and history graph of the latest 20 commits
+	l = log --pretty=oneline -n 20 --graph
+	# Show verbose output about tags, branches or remotes
+	tags = tag -l
+	branches = branch -a
+	remotes = remote -v
+
+[color]
+	# Use colors in Git commands that are capable of colored output when outputting to the terminal
+	ui = auto
+
+# URL shorthands
+[url "git@github.com:"]
+	insteadOf = "gh:"
+	pushInsteadOf = "github:"
+	pushInsteadOf = "git://github.com/"
+
+[user]
+	name = valborg
+	email = valborg.sturludottir@kvika.is
+[push]
+	default = simple
+[pull]
+	rebase = false
+
+[core]
+	editor = code --wait

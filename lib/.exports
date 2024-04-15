@@ -1,0 +1,7 @@
+# Make vim the default editor
+export EDITOR="vim"
+
+# Make some commands not show up in history
+export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
+
+#export SSH_KEY_PATH="~/.ssh/rsa_id"
